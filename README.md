@@ -1,9 +1,3 @@
-In this work we described the task of exoplanet detection and the methods applied to this task, both classical and
-recent. The transit method was the most popular method used by ML literature, and the most common in terms of
-confirmed exoplanet discoveries. Popular works would use both traditional and deep-learning machine learning methods
-in order to accomplish detection, but convolutional neural networks appeared to be the most popular.
-Our work applied a transformer network to a pre-processed dataset consisting of time-series star flux values from the Kepler Space Telescope experiment; while it correctly classified
-most negative cases, it was unable to classify any of the few positive cases.
-There is room for future work to improve out model For example, pre-training the transformer with self-supervised learning on the huge volume of Kepler data before supervised
-training could help the model learn the features of the data
-necessary to make good classifications.
+In this work, we describe the task of exoplanet detection and the methods applied to this task, both classical and recent. The transit method emerges as the most popular approach in the machine learning literature and is the most common method leading to confirmed exoplanet discoveries. Well-known studies leverage both traditional and deep-learning machine-learning methods for detection, with convolutional neural networks being the most prevalent.
+
+Our work employs a transformer network on a pre-processed dataset comprising time-series star flux values from the Kepler Space Telescope experiment. While our model correctly classifies most negative cases, it struggles to classify any of the few positive cases. There is potential for future work to enhance our model. For instance, pre-training the transformer with self-supervised learning on the vast volume of Kepler data before supervised training could assist the model in learning the essential features necessary for accurate classifications.
