@@ -1,6 +1,6 @@
 # README
 
-## Transformer-based Time Series Classification for Exoplanet Detection
+## Exoplanet-Detection_Machine_Learning
 
 This repository contains code for time series classification using a transformer-based model for exoplanet detection. The project utilizes PyTorch for implementing the transformer model and training process.
 
